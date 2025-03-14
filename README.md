@@ -1,1 +1,2 @@
-# binder-template
+# binder example image
+
