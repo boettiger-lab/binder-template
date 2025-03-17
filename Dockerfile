@@ -1,7 +1,6 @@
 FROM rocker/binder
 
 COPY environment.yml /tmp/environment.yml
-RUN conda update -n base -c conda-forge conda && conda env update --file environment.yml
 RUN conda update --all --solver=classic -n base -c conda-forge conda && conda env update --file /tmp/environment.yml
 
 # Config will be populated by env vars and moved to HOME via start script: (hub-dependent)
