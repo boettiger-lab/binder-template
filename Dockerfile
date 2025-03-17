@@ -1,8 +1,8 @@
 FROM rocker/binder
 
-XDG_CONFIG_HOME=/opt/config
-XDG_BIN_HOME=/opt/bin
-PATH=${XDG_BIN_HOME}:$PATH
+ENV XDG_CONFIG_HOME=/opt/config
+ENV XDG_BIN_HOME=/opt/bin
+ENV PATH=${XDG_BIN_HOME}:$PATH
 
 # Also must create these directories and fix permissions.
 RUN sudo mkdir /opt/config && sudo mkdir /opt/bin && \
