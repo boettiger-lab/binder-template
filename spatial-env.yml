@@ -5,6 +5,7 @@ dependencies:
   - boto3
   - cartopy
   - distributed
+  - duckdb
   - earthaccess
   - exactextract
   - fiona
@@ -12,7 +13,7 @@ dependencies:
   - geoarrow-types
   - geopandas
   - geocube
-  - ibis
+  - ibis-framework
   - leafmap
   - libgdal-arrow-parquet
   - localtileserver
