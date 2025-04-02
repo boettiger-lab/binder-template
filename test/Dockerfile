@@ -7,5 +7,5 @@ RUN micromamba install \
   "jupyterhub==4.*" \
   notebook
 
-CMD ["jupyter", "lab", "--ip", "0.0.0.0"]
+#CMD ["jupyter", "lab", "--ip", "0.0.0.0"]
 
