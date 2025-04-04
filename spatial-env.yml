@@ -4,8 +4,8 @@ channels:
 dependencies:
   - boto3
   - cartopy
-  - distributed
   - duckdb
+  - distributed
   - earthaccess
   - exactextract
   - fiona
@@ -14,6 +14,8 @@ dependencies:
   - geopandas
   - geocube
   - ibis-framework
+  - icechunk
+  - jupytergis
   - leafmap
   - libgdal-arrow-parquet
   - localtileserver
@@ -44,5 +46,6 @@ dependencies:
   - zarr
   - pip
   - pip:
+    - pcodec
     - git+https://github.com/boettiger-lab/cng-python.git
 
